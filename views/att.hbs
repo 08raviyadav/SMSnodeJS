@@ -1,0 +1,80 @@
+<html>
+    <head>
+        {{>head}}
+    </head>
+    <body style="background-image: url('');" >
+            <nav class="navbar navbar-expand-lg navbar-light bg-light align-items-center">
+  <a class="navbar-brand" href="#">Student Management System</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="../">Home</a>
+      </li>   
+         <li class="nav-item active">
+        <a class="nav-link bg-danger" href="../att">Attendence</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="../fees">Fees</a>
+      </li>     
+      <li class="nav-item">
+      <a class="nav-link" href="../ums">Ums</a>
+        </li>   
+        </div>
+      </li>
+  </div>
+</nav>
+<br>
+<center>{{>header}}</center>
+<br>
+ <div class="container-fluid">
+        <h3 class="bg-warning"> Attendence </h3>
+        <table class="table table-bordered table-hover table-warning">
+          <tr class="bg-dark text-light">
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Registration Number</th>
+            <th>Subject</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>01</td>
+            <td>Ravi</td>
+            <td>11717020</td>
+            <td>Cap919</td>
+            <td class="table-danger">Absent</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>Sidhartha</td>
+            <td>11717898</td>
+            <td>Cap919</td>
+            <td class="table-success">Present</td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>Arpit</td>
+            <td>11716879</td>
+            <td>Cap919</td>
+            <td class="table-danger">Absent</td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>Aamir</td>
+            <td>11715587</td>
+            <td>Cap919</td>
+            <td class="table-success">Present</td>
+          </tr>
+        </table>
+ </div>
+
+
+
+       <center> {{>footer}} </center>
+
+
+</body>
+</html>

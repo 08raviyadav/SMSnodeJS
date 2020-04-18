@@ -1,0 +1,112 @@
+<html>
+    <head>{{>head}}</head>
+    <body>
+         <nav class="navbar navbar-expand-lg navbar-light bg-light align-items-center">
+  <a class="navbar-brand" href="#">Student Management System</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="../">Home</a>
+      </li>      
+         <li class="nav-item ">
+        <a class="nav-link" href="../att">Attendance</a>
+      </li>
+         <li class="nav-item active">
+        <a class="nav-link bg-danger" href="../fees">Fees</a>
+      </li>     
+      <li class="nav-item">
+      <a  class="nav-link" href="../ums">UMS</a>
+        </li>   
+        </div>
+      </li>
+  </div>
+</nav>
+<br>
+<center>{{>header}}</center>
+<br>
+<marquee  direction="right" style="text-align: center; color:red;"><h3>In case of outstanding fees your attendence will be blocked.</h3></marquee>
+<table class="table table-bordered table-hover table-warning">
+     <tr class="bg-dark text-light">
+      <th> S.N</th>
+      <th> Regd NO </th>
+      <th> Name </th>
+      <th> Course</th>
+      <th> Tution Fee </th>
+      <th> Hostel Fee </th>
+      <th> Exam Fee</th>
+      <th> Total Fee</th>
+      <th > Status </th>
+    </tr>
+    <tr>
+      <td> 01 </td>
+      <td> 11717020 </td>
+      <td> Ravi </td>
+      <td> BCA </td>
+      <td> 59,500 INR </td>
+      <td> 54,000 INR </td>
+      <td > 2000 INR </td>
+      <td>1,15,500 INR</td>
+      <td class="table-success"> Paid </td>
+    </tr>
+
+    <tr>
+      <td> 02 </td>
+      <td> 11717021 </td>
+      <td> AAAA </td>
+      <td> B.Tech CSE </td>
+      <td> 70,500 INR </td>
+      <td> 54,000 INR </td>
+      <td > 2000 INR </td>
+      <td>1,25,500 INR</td>
+      <td class="table-success"> Paid </td>
+    </tr>
+
+    <tr>
+      <td> 03 </td>
+      <td> 11717022 </td>
+      <td> BBBB </td>
+      <td> BSC Agriculture </td>
+      <td> 59,500 INR </td>
+      <td> 54,000 INR </td>
+      <td > 2000 INR </td>
+      <td>1,15,500 INR</td>
+      <td class="table-danger"> Due </td>
+    </tr>
+
+    <tr>
+      <td> 04 </td>
+      <td> 11717023 </td>
+      <td> CCCC </td>
+      <td> BBA </td>
+      <td> 59,500 INR </td>
+      <td> 54,000 INR </td>
+      <td > 2000 INR </td>
+      <td>1,15,500 INR</td>
+      <td class="table-danger"> Due </td>
+    </tr>
+
+     <tr>
+      <td> 05 </td>
+      <td> 11717024 </td>
+      <td> DDDD </td>
+      <td> MBA </td>
+      <td> 80,500 INR </td>
+      <td> 54,000 INR </td>
+      <td > 2000 INR </td>
+      <td>1,35,500 INR</td>
+      <td class="table-success"> Paid </td>
+    </tr>
+    </table>
+  </div>
+
+</div>
+
+ {{>footer}}
+ </div> 
+
+    </body>
+</html>
