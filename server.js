@@ -44,6 +44,10 @@ app.get('/ums', (req, res) => {
     res.render('ums.hbs');
 });
 
+app.get('/updation', (req, res) => {
+    res.render('updation.hbs');
+});
+
 app.get('*', (req, res) => {
     res.send("<br><center><h1>OOPS!!! Something Wrong happened</h1><center>")
 })
